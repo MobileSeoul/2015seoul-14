@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BPSearchFilterViewController">
+            <connections>
+                <outlet property="applyButton" destination="tjy-GB-pxB" id="07l-eL-1nh"/>
+                <outlet property="collectionView" destination="2f7-Ka-ekD" id="jWh-0x-Jau"/>
+                <outlet property="resetButton" destination="8JH-6Q-qMv" id="DZn-zS-Dd4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2f7-Ka-ekD">
+                    <rect key="frame" x="155" y="422" width="290" height="108"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="108" id="InJ-bt-Ldh"/>
+                        <constraint firstAttribute="width" constant="290" id="hYL-Su-4sh"/>
+                    </constraints>
+                    <collectionViewLayout key="collectionViewLayout" id="J8g-q5-OfT" customClass="FSQCollectionViewAlignedLayout"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="mdm-Wy-Doy"/>
+                        <outlet property="delegate" destination="-1" id="1Um-Z8-hx7"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WTT-9e-gCn">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="filter_white" translatesAutoresizingMaskIntoConstraints="NO" id="rLI-fL-mhH">
+                            <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="Pru-oh-HTL"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="검색필터 변경" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOp-2H-76Z">
+                            <rect key="frame" x="37" y="11" width="76.5" height="17"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9t-5o-WK6">
+                            <rect key="frame" x="560" y="0.0" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="vTz-yK-uKS"/>
+                            </constraints>
+                            <state key="normal" image="filter_close"/>
+                            <connections>
+                                <action selector="closeButton" destination="-1" eventType="touchUpInside" id="Pji-Cq-jdr"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070588235294117646" green="0.70196078431372544" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Asp-9j-0cv"/>
+                        <constraint firstItem="k9t-5o-WK6" firstAttribute="top" secondItem="WTT-9e-gCn" secondAttribute="top" id="F7l-ec-0br"/>
+                        <constraint firstItem="rLI-fL-mhH" firstAttribute="leading" secondItem="WTT-9e-gCn" secondAttribute="leading" id="NnU-a3-Mre"/>
+                        <constraint firstItem="gOp-2H-76Z" firstAttribute="centerY" secondItem="WTT-9e-gCn" secondAttribute="centerY" id="W9Z-kE-Nap"/>
+                        <constraint firstItem="rLI-fL-mhH" firstAttribute="top" secondItem="WTT-9e-gCn" secondAttribute="top" id="WET-Vo-fl6"/>
+                        <constraint firstItem="gOp-2H-76Z" firstAttribute="leading" secondItem="rLI-fL-mhH" secondAttribute="trailing" constant="-3" id="awz-zd-W0f"/>
+                        <constraint firstAttribute="bottom" secondItem="k9t-5o-WK6" secondAttribute="bottom" id="hEd-iN-J37"/>
+                        <constraint firstAttribute="trailing" secondItem="k9t-5o-WK6" secondAttribute="trailing" id="mLi-qt-N9x"/>
+                        <constraint firstAttribute="bottom" secondItem="rLI-fL-mhH" secondAttribute="bottom" id="p7S-Fj-Okp"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nxz-Lf-v3T">
+                    <rect key="frame" x="163" y="550" width="274" height="35"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JH-6Q-qMv">
+                            <rect key="frame" x="0.0" y="0.0" width="140" height="35"/>
+                            <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="jtM-PE-3fJ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                            <state key="normal" title="초기화">
+                                <color key="titleColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="resetFilter" destination="-1" eventType="touchUpInside" id="29q-x2-tlO"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjy-GB-pxB">
+                            <rect key="frame" x="144" y="0.0" width="140" height="35"/>
+                            <color key="backgroundColor" red="1" green="0.87450980392156863" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="140" id="Cdt-xq-s6L"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                            <state key="normal" title="검색조건 적용">
+                                <color key="titleColor" red="0.066666666666666666" green="0.65098039215686276" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="saveFilter" destination="-1" eventType="touchUpInside" id="ySS-5D-0c0"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="8JH-6Q-qMv" firstAttribute="leading" secondItem="Nxz-Lf-v3T" secondAttribute="leading" id="53C-cq-B8V"/>
+                        <constraint firstItem="tjy-GB-pxB" firstAttribute="top" secondItem="Nxz-Lf-v3T" secondAttribute="top" id="7Hq-Gz-1hj"/>
+                        <constraint firstItem="tjy-GB-pxB" firstAttribute="leading" secondItem="8JH-6Q-qMv" secondAttribute="trailing" constant="4" id="InM-tl-CpN"/>
+                        <constraint firstAttribute="bottom" secondItem="tjy-GB-pxB" secondAttribute="bottom" id="Ir6-xL-YDd"/>
+                        <constraint firstItem="8JH-6Q-qMv" firstAttribute="top" secondItem="Nxz-Lf-v3T" secondAttribute="top" id="JN1-xz-AhH"/>
+                        <constraint firstAttribute="height" constant="35" id="OkU-na-n2W"/>
+                        <constraint firstAttribute="bottom" secondItem="8JH-6Q-qMv" secondAttribute="bottom" id="Uce-9q-BhS"/>
+                        <constraint firstAttribute="trailing" secondItem="tjy-GB-pxB" secondAttribute="trailing" constant="-10" id="XaS-MD-bNq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2f7-Ka-ekD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="B4a-RQ-zSy"/>
+                <constraint firstAttribute="trailing" secondItem="WTT-9e-gCn" secondAttribute="trailing" id="Ima-oV-dpb"/>
+                <constraint firstItem="Nxz-Lf-v3T" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="YCD-QB-tNR"/>
+                <constraint firstAttribute="bottom" secondItem="Nxz-Lf-v3T" secondAttribute="bottom" constant="15" id="e4X-OT-YFl"/>
+                <constraint firstItem="Nxz-Lf-v3T" firstAttribute="top" secondItem="2f7-Ka-ekD" secondAttribute="bottom" constant="20" id="h7Z-Zh-KcA"/>
+                <constraint firstItem="WTT-9e-gCn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ho7-in-Ebl"/>
+                <constraint firstItem="WTT-9e-gCn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kHP-1T-wmS"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="filter_close" width="15" height="15"/>
+        <image name="filter_white" width="11" height="13"/>
+    </resources>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BPIntroViewController">
+            <connections>
+                <outlet property="descLabel" destination="OAA-oF-Yk5" id="EDd-CO-k81"/>
+                <outlet property="startButton" destination="JGO-ZM-bzy" id="s3d-pq-fh4"/>
+                <outlet property="titleLabel" destination="A6D-rM-ybl" id="NhB-oS-3mi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGO-ZM-bzy">
+                    <rect key="frame" x="207" y="477" width="185" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="185" id="8yh-ZX-5tx"/>
+                        <constraint firstAttribute="height" constant="40" id="Gs4-0i-9f9"/>
+                        <constraint firstAttribute="width" constant="600" id="cEh-3R-izF"/>
+                        <constraint firstAttribute="height" constant="48" id="mwa-ak-gy2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                    <state key="normal" title="시작하기">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Gs4-0i-9f9"/>
+                            <exclude reference="cEh-3R-izF"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="touchUpNextButton:" destination="-1" eventType="touchUpInside" id="Xnh-mB-mCJ"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start_choo" translatesAutoresizingMaskIntoConstraints="NO" id="hYy-z4-PDd">
+                    <rect key="frame" x="210" y="185" width="179" height="230"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="Ap5-VK-WbI"/>
+                        <constraint firstAttribute="width" constant="179" id="MYD-LA-KQd"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="여자만 알아요!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6D-rM-ybl">
+                    <rect key="frame" x="223" y="77" width="154" height="32.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAA-oF-Yk5">
+                    <rect key="frame" x="203" y="116" width="194" height="38.5"/>
+                    <string key="text">여자들이 직접 사용하고 평가한
+화장실만 찾아주는</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.070588235294117646" green="0.70196078431372544" blue="0.6470588235294118" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="hYy-z4-PDd" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="3hM-J4-Vvo"/>
+                <constraint firstItem="OAA-oF-Yk5" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8rE-bh-DEB"/>
+                <constraint firstItem="hYy-z4-PDd" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="GcJ-R0-zhw"/>
+                <constraint firstItem="OAA-oF-Yk5" firstAttribute="top" secondItem="A6D-rM-ybl" secondAttribute="bottom" constant="7" id="XNd-pA-OsM"/>
+                <constraint firstItem="JGO-ZM-bzy" firstAttribute="top" secondItem="hYy-z4-PDd" secondAttribute="bottom" constant="62" id="cjZ-BW-hr5"/>
+                <constraint firstItem="hYy-z4-PDd" firstAttribute="top" secondItem="OAA-oF-Yk5" secondAttribute="bottom" constant="30" id="dl7-El-HAo"/>
+                <constraint firstItem="JGO-ZM-bzy" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pGY-Zh-62J"/>
+                <constraint firstItem="A6D-rM-ybl" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sl6-fe-1e7"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="start_choo" width="179" height="230"/>
+    </resources>
+</document>

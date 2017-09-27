@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bb45a51-2f95-40cd-a603-c673c6fdc430" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="toilet.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_6_Plus_8.4_x86_64_1" />
+  <component name="FavoritesManager">
+    <favorites_list name="toilet" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="BPToiletListViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPToiletListViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="e#154#192#0" expanded="true" />
+                <element signature="e#3989#4022#0" expanded="true" />
+                <element signature="e#14046#14091#0" expanded="true" />
+                <element signature="e#14140#14171#0" expanded="true" />
+                <element signature="e#14203#14234#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPToiletInfo.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPToiletInfo.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding>
+                <element signature="e#4482#4516#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BFCancellationTokenRegistration.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPToiletCardView.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
+              <folding>
+                <element signature="e#4207#4249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPRatingToiletViewController.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/toilet/BPRatingToiletViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8220947">
+              <caret line="361" column="36" selection-start-line="361" selection-start-column="36" selection-end-line="361" selection-end-column="36" />
+              <folding>
+                <element signature="e#156#199#0" expanded="true" />
+                <element signature="e#6585#6634#0" expanded="true" />
+                <element signature="e#6653#6682#0" expanded="true" />
+                <element signature="e#7065#7142#0" expanded="true" />
+                <element signature="e#7215#7245#0" expanded="true" />
+                <element signature="e#7594#7659#0" expanded="true" />
+                <element signature="e#7678#7707#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPFacebookManager.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPFacebookManager.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <folding>
+                <element signature="e#101#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPAutoCompleteLocationListViewController.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPAutoCompleteLocationListViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <folding>
+                <element signature="e#169#221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPRatingToiletViewController.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/BPRatingToiletViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/toilet/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/toilet/BPLocationManager.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletOptionIconView.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletOptionIconView.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletInfoManager.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletInfoManager.m" />
+        <option value="$PROJECT_DIR$/toilet/BPSetting.h" />
+        <option value="$PROJECT_DIR$/toilet/BPSetting.m" />
+        <option value="$PROJECT_DIR$/toilet/BPAPI.h" />
+        <option value="$PROJECT_DIR$/toilet/BPRatingToiletViewController.h" />
+        <option value="$PROJECT_DIR$/toilet/BPSignUpViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPFacebookManager.h" />
+        <option value="$PROJECT_DIR$/toilet/Info.plist" />
+        <option value="$PROJECT_DIR$/toilet/BPRootViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/UIColor+BPAddition.m" />
+        <option value="$PROJECT_DIR$/toilet/UIColor+BPAddition.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletReport.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletInfo.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletReport.m" />
+        <option value="$PROJECT_DIR$/Podfile" />
+        <option value="$PROJECT_DIR$/toilet/Detail/BPToiletDetailViewController.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardCommentCell.m" />
+        <option value="$PROJECT_DIR$/toilet/BPAPI.m" />
+        <option value="$PROJECT_DIR$/toilet/BPSearchFilterViewController.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletMapAnnotation.h" />
+        <option value="$PROJECT_DIR$/toilet/UIImage+BPAddition.h" />
+        <option value="$PROJECT_DIR$/toilet/UIImage+BPAddition.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletMapAnnotation.m" />
+        <option value="$PROJECT_DIR$/toilet/BPIntroViewController.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardView.h" />
+        <option value="$PROJECT_DIR$/toilet/UIDevice+BPAddition.h" />
+        <option value="$PROJECT_DIR$/toilet/UIDevice+BPAddition.m" />
+        <option value="$PROJECT_DIR$/toilet/BPDefineUtility.h" />
+        <option value="$PROJECT_DIR$/toilet/BPAutoCompleteLocationListViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletOptionViewCell.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletOptionViewCell.m" />
+        <option value="$PROJECT_DIR$/toilet/BPLocationManager.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardPhotoCell.h" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardPhotoCell.m" />
+        <option value="$PROJECT_DIR$/ChooWidget/TodayViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardCell.m" />
+        <option value="$PROJECT_DIR$/toilet/Detail/BPToiletDetailViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPSearchFilterViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPIntroViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPAutoCompleteLocationListViewController.h" />
+        <option value="$PROJECT_DIR$/toilet/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletCardView.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletInfo.m" />
+        <option value="$PROJECT_DIR$/toilet/BPRatingToiletViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/BPToiletListViewController.m" />
+        <option value="$PROJECT_DIR$/toilet/Localizable.strings" />
+        <option value="$PROJECT_DIR$/toilet/BPFacebookManager.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="OCFindUsagesOptions" text="false" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1173" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rating" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Module" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="List" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intro" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Filter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="toilet" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Detail" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pods" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOS" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/toilet.xcworkspace" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="toilet,,,ChooWidget" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.toilet">
+    <configuration default="false" name="toilet" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="toilet" TARGET_NAME="toilet" CONFIG_NAME="Debug" SCHEME_NAME="toilet" RUN_TARGET_PROJECT_NAME="toilet" RUN_TARGET_NAME="toilet" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="toilet" TARGET_NAME="toilet" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="toilet" RUN_TARGET_NAME="toilet" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="toilet" TARGET_NAME="toilet" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="toilet" TARGET_NAME="toiletTests" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods-toilet" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods-toilet" CONFIG_NAME="Debug" SCHEME_NAME="Pods-toilet" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ChooWidget" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="toilet" TARGET_NAME="ChooWidget" CONFIG_NAME="Debug" SCHEME_NAME="ChooWidget" RUN_TARGET_PROJECT_NAME="toilet" RUN_TARGET_NAME="toilet" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="AFNetworking" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="AFNetworking" CONFIG_NAME="Debug" SCHEME_NAME="AFNetworking" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="BlocksKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="BlocksKit" CONFIG_NAME="Debug" SCHEME_NAME="BlocksKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Bolts" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Bolts" CONFIG_NAME="Debug" SCHEME_NAME="Bolts" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="FBSDKCoreKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="FBSDKCoreKit" CONFIG_NAME="Debug" SCHEME_NAME="FBSDKCoreKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="FBSDKLoginKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="FBSDKLoginKit" CONFIG_NAME="Debug" SCHEME_NAME="FBSDKLoginKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="FBSDKShareKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="FBSDKShareKit" CONFIG_NAME="Debug" SCHEME_NAME="FBSDKShareKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="HCSStarRatingView" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="HCSStarRatingView" CONFIG_NAME="Debug" SCHEME_NAME="HCSStarRatingView" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="ISO8601DateFormatterValueTransformer" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="ISO8601DateFormatterValueTransformer" CONFIG_NAME="Debug" SCHEME_NAME="ISO8601DateFormatterValueTransformer" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="RestKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="RestKit" CONFIG_NAME="Debug" SCHEME_NAME="RestKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="RKValueTransformers" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="RKValueTransformers" CONFIG_NAME="Debug" SCHEME_NAME="RKValueTransformers" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="SDWebImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="SDWebImage" CONFIG_NAME="Debug" SCHEME_NAME="SDWebImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="SOCKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="SOCKit" CONFIG_NAME="Debug" SCHEME_NAME="SOCKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="TransitionKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="TransitionKit" CONFIG_NAME="Debug" SCHEME_NAME="TransitionKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="DCKeyValueObjectMapping" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="DCKeyValueObjectMapping" CONFIG_NAME="Debug" SCHEME_NAME="DCKeyValueObjectMapping" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="JTProgressHUD" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="JTProgressHUD" CONFIG_NAME="Debug" SCHEME_NAME="JTProgressHUD" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="EBCardCollectionViewLayout" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="EBCardCollectionViewLayout" CONFIG_NAME="Debug" SCHEME_NAME="EBCardCollectionViewLayout" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="LGSemiModalNavController-LGSemiModalNavController" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="LGSemiModalNavController-LGSemiModalNavController" CONFIG_NAME="Debug" SCHEME_NAME="LGSemiModalNavController-LGSemiModalNavController" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="LGSemiModalNavController" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="LGSemiModalNavController" CONFIG_NAME="Debug" SCHEME_NAME="LGSemiModalNavController" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="LGSublimationView-LGSublimationView" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="LGSublimationView-LGSublimationView" CONFIG_NAME="Debug" SCHEME_NAME="LGSublimationView-LGSublimationView" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="LGSublimationView" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="LGSublimationView" CONFIG_NAME="Debug" SCHEME_NAME="LGSublimationView" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="FSQCollectionViewAlignedLayout" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="FSQCollectionViewAlignedLayout" CONFIG_NAME="Debug" SCHEME_NAME="FSQCollectionViewAlignedLayout" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="NYTPhotoViewer" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="NYTPhotoViewer" CONFIG_NAME="Debug" SCHEME_NAME="NYTPhotoViewer" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="CombinationPickerController" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="CombinationPickerController" CONFIG_NAME="Debug" SCHEME_NAME="CombinationPickerController" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="KxMenu" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="KxMenu" CONFIG_NAME="Debug" SCHEME_NAME="KxMenu" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="DateTools" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="DateTools" CONFIG_NAME="Debug" SCHEME_NAME="DateTools" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="28">
+      <item index="0" class="java.lang.String" itemvalue="Application.Pods-toilet" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ChooWidget" />
+      <item index="2" class="java.lang.String" itemvalue="Application.AFNetworking" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BlocksKit" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Bolts" />
+      <item index="5" class="java.lang.String" itemvalue="Application.FBSDKCoreKit" />
+      <item index="6" class="java.lang.String" itemvalue="Application.FBSDKLoginKit" />
+      <item index="7" class="java.lang.String" itemvalue="Application.FBSDKShareKit" />
+      <item index="8" class="java.lang.String" itemvalue="Application.HCSStarRatingView" />
+      <item index="9" class="java.lang.String" itemvalue="Application.ISO8601DateFormatterValueTransformer" />
+      <item index="10" class="java.lang.String" itemvalue="Application.RestKit" />
+      <item index="11" class="java.lang.String" itemvalue="Application.RKValueTransformers" />
+      <item index="12" class="java.lang.String" itemvalue="Application.SDWebImage" />
+      <item index="13" class="java.lang.String" itemvalue="Application.SOCKit" />
+      <item index="14" class="java.lang.String" itemvalue="Application.TransitionKit" />
+      <item index="15" class="java.lang.String" itemvalue="Application.DCKeyValueObjectMapping" />
+      <item index="16" class="java.lang.String" itemvalue="Application.JTProgressHUD" />
+      <item index="17" class="java.lang.String" itemvalue="Application.EBCardCollectionViewLayout" />
+      <item index="18" class="java.lang.String" itemvalue="Application.LGSemiModalNavController-LGSemiModalNavController" />
+      <item index="19" class="java.lang.String" itemvalue="Application.LGSemiModalNavController" />
+      <item index="20" class="java.lang.String" itemvalue="Application.LGSublimationView-LGSublimationView" />
+      <item index="21" class="java.lang.String" itemvalue="Application.LGSublimationView" />
+      <item index="22" class="java.lang.String" itemvalue="Application.FSQCollectionViewAlignedLayout" />
+      <item index="23" class="java.lang.String" itemvalue="Application.NYTPhotoViewer" />
+      <item index="24" class="java.lang.String" itemvalue="Application.CombinationPickerController" />
+      <item index="25" class="java.lang.String" itemvalue="Application.KxMenu" />
+      <item index="26" class="java.lang.String" itemvalue="Application.DateTools" />
+      <item index="27" class="java.lang.String" itemvalue="Application.toilet" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.toilet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bb45a51-2f95-40cd-a603-c673c6fdc430" name="Default" comment="" />
+      <created>1440080897146</created>
+      <option name="number" value="Default" />
+      <updated>1440080897146</updated>
+    </task>
+    <task id="LOCAL-00001" summary="FB Login 추가 &#10;">
+      <created>1440660992660</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1440660992660</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Location tracking">
+      <created>1440738526394</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1440738526394</updated>
+    </task>
+    <task id="LOCAL-00003" summary="메인화면 UI 변경">
+      <created>1444842426571</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1444842426571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="메인화면 UI 변경">
+      <created>1444842447634</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1444842447634</updated>
+    </task>
+    <task id="LOCAL-00005" summary="메인리스트의 하단 검색 옵션 변경 창 추가 &#10;">
+      <created>1444925058843</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1444925058843</updated>
+    </task>
+    <task id="LOCAL-00006" summary="카드 눌렀을 때 화면 확대되어서 나오도록 수정 &#10;">
+      <created>1445274458350</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1445274458350</updated>
+    </task>
+    <task id="LOCAL-00007" summary="화장실 리스트 리스폰스 대응 &#10;">
+      <created>1445464603710</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1445464603710</updated>
+    </task>
+    <task id="LOCAL-00008" summary="평가하기 API 붙임, 평가하기 UI 개선&#10;">
+      <created>1445881895004</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1445881895004</updated>
+    </task>
+    <task id="LOCAL-00009" summary="페이스북 로그인 안되던 문제 수정 &#10;">
+      <created>1445977582738</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1445977582738</updated>
+    </task>
+    <task id="LOCAL-00010" summary="처음 리스트 불러올때 거리 정보 제대로 못 계산하던 문제 수정 &#10;">
+      <created>1445979141501</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1445979141501</updated>
+    </task>
+    <task id="LOCAL-00011" summary="평가화면 UI 작업 진행 &#10;">
+      <created>1446135132448</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1446135132448</updated>
+    </task>
+    <task id="LOCAL-00012" summary="필터 UI 수정 및 기타 UI 수정 &#10;">
+      <created>1446264547853</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1446264547853</updated>
+    </task>
+    <task id="LOCAL-00013" summary="검색 UI 적용&#10;">
+      <created>1446265925190</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1446265925190</updated>
+    </task>
+    <task id="LOCAL-00014" summary="현재 핀만 녹색으로 나타나도록 수정 &#10;">
+      <created>1446268709372</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1446268709372</updated>
+    </task>
+    <task id="LOCAL-00015" summary="인트로, 런치스크린, 카드 비율 단위로 조정되도록 수정 &#10;">
+      <created>1446276682484</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1446276682484</updated>
+    </task>
+    <task id="LOCAL-00016" summary="앱 아이콘 등록 및 기타 이미지 리소스 반영&#10;">
+      <created>1446280812786</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1446280812786</updated>
+    </task>
+    <task id="LOCAL-00017" summary="UI 한글로 개선">
+      <created>1446291586882</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1446291586882</updated>
+    </task>
+    <task id="LOCAL-00018" summary="별점 기본값 변경 (2.5)">
+      <created>1446292381172</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1446292381172</updated>
+    </task>
+    <task id="LOCAL-00019" summary="code clean">
+      <created>1446292754262</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1446292754262</updated>
+    </task>
+    <task id="LOCAL-00020" summary="4 단말기에서 평가 레이어 꺠지는 문제 수정&#10;">
+      <created>1446300661020</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1446300661020</updated>
+    </task>
+    <task id="LOCAL-00021" summary="4 단말기에서 평가 레이어 꺠지는 문제 수정&#10;">
+      <created>1446300677825</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1446300677825</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1173" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3228492" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19799894" sideWeight="0.48658648" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3265495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1982805" sideWeight="0.5134135" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37927845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="1540" y="-237" width="2360" height="1240" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="FB Login 추가 &#10;" />
+    <MESSAGE value="add Location tracking" />
+    <MESSAGE value="메인화면 UI 변경" />
+    <MESSAGE value="메인리스트의 하단 검색 옵션 변경 창 추가 &#10;" />
+    <MESSAGE value="카드 눌렀을 때 화면 확대되어서 나오도록 수정 &#10;" />
+    <MESSAGE value="화장실 리스트 리스폰스 대응 &#10;" />
+    <MESSAGE value="평가하기 API 붙임, 평가하기 UI 개선&#10;" />
+    <MESSAGE value="페이스북 로그인 안되던 문제 수정 &#10;" />
+    <MESSAGE value="처음 리스트 불러올때 거리 정보 제대로 못 계산하던 문제 수정 &#10;" />
+    <MESSAGE value="평가화면 UI 작업 진행 &#10;" />
+    <MESSAGE value="필터 UI 수정 및 기타 UI 수정 &#10;" />
+    <MESSAGE value="검색 UI 적용&#10;" />
+    <MESSAGE value="현재 핀만 녹색으로 나타나도록 수정 &#10;" />
+    <MESSAGE value="인트로, 런치스크린, 카드 비율 단위로 조정되도록 수정 &#10;" />
+    <MESSAGE value="앱 아이콘 등록 및 기타 이미지 리소스 반영&#10;" />
+    <MESSAGE value="UI 한글로 개선" />
+    <MESSAGE value="별점 기본값 변경 (2.5)" />
+    <MESSAGE value="code clean" />
+    <MESSAGE value="4 단말기에서 평가 레이어 꺠지는 문제 수정&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 단말기에서 평가 레이어 꺠지는 문제 수정&#10;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="219" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pods/NYTPhotoViewer/Pod/Classes/ios/Protocols/NYTPhoto.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Headers/Public/NYTPhotoViewer/NYTPhotosViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPSetting.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSJSONSerialization.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/Images.xcassets/close.imageset/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletInfo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPRatingToiletViewController.xib">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/objc/objc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotationView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="66" selection-start-line="75" selection-start-column="66" selection-end-line="75" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/UIImage+BPAddition.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/UIImage+BPAddition.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletMapAnnotation.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#148#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletMapAnnotation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="111" column="6" selection-start-line="111" selection-start-column="6" selection-end-line="111" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPRootViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPLocationManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletOptionViewCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <marker date="1446281838000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPLocationManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="131" selection-start-line="66" selection-start-column="131" selection-end-line="66" selection-end-column="131" />
+          <folding>
+            <element signature="e#102#131#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletOptionViewCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardPhotoCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardPhotoCell.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18518518">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34188035">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/Detail/BPToiletDetailViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <element signature="e#105#138#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode6.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="384" column="181" selection-start-line="384" selection-start-column="181" selection-end-line="384" selection-end-column="181" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/Detail/BPToiletDetailViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#105#145#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPSearchFilterViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#155#178#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPSearchFilterViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#155#195#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPIntroViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPIntroViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPAutoCompleteLocationListViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#169#192#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletListViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#154#177#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletReport.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPAPI.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="75" selection-start-line="68" selection-start-column="75" selection-end-line="68" selection-end-column="75" />
+          <folding>
+            <element signature="e#104#143#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPAPI.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#104#137#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPBookmarkManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPDefineUtility.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPRootViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardCommentCell.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPRatingToiletViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPAutoCompleteLocationListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="e#169#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pods/Bolts/Bolts/Common/BFCancellationTokenRegistration.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletInfo.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="e#4482#4516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="106" column="11" selection-start-line="106" selection-start-column="11" selection-end-line="106" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletListViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#154#192#0" expanded="true" />
+            <element signature="e#3989#4022#0" expanded="true" />
+            <element signature="e#14046#14091#0" expanded="true" />
+            <element signature="e#14140#14171#0" expanded="true" />
+            <element signature="e#14203#14234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/Localizable.strings">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65318817">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPToiletCardView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="64" selection-start-line="148" selection-start-column="64" selection-end-line="148" selection-end-column="64" />
+          <folding>
+            <element signature="e#4207#4249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPFacebookManager.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding>
+            <element signature="e#101#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/toilet/BPRatingToiletViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8220947">
+          <caret line="361" column="36" selection-start-line="361" selection-start-column="36" selection-end-line="361" selection-end-column="36" />
+          <folding>
+            <element signature="e#156#199#0" expanded="true" />
+            <element signature="e#6585#6634#0" expanded="true" />
+            <element signature="e#6653#6682#0" expanded="true" />
+            <element signature="e#7065#7142#0" expanded="true" />
+            <element signature="e#7215#7245#0" expanded="true" />
+            <element signature="e#7594#7659#0" expanded="true" />
+            <element signature="e#7678#7707#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

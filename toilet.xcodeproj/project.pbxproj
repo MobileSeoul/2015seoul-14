@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64C1A27BBF3EC16E8FEBD6AA /* libPods-toilet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E13ED8B95384A20968FC3E22 /* libPods-toilet.a */; };
+		B321F0191BD82F9500273355 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321F0181BD82F9500273355 /* MapKit.framework */; };
+		B321F0221BDBE32C00273355 /* BPToiletOptionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B321F0201BDBE32C00273355 /* BPToiletOptionViewCell.m */; };
+		B321F0231BDBE32C00273355 /* BPToiletOptionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B321F0211BDBE32C00273355 /* BPToiletOptionViewCell.xib */; };
+		B333C2EA1B861A8D00DD3618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C2E91B861A8D00DD3618 /* main.m */; };
+		B333C2ED1B861A8D00DD3618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C2EC1B861A8D00DD3618 /* AppDelegate.m */; };
+		B333C2F81B861A8D00DD3618 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B333C2F61B861A8D00DD3618 /* LaunchScreen.xib */; };
+		B333C3041B861A8D00DD3618 /* toiletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C3031B861A8D00DD3618 /* toiletTests.m */; };
+		B333C3101B861B6600DD3618 /* BPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C30F1B861B6600DD3618 /* BPRootViewController.m */; };
+		B333C3151B861C4300DD3618 /* BPToiletListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C3131B861C4300DD3618 /* BPToiletListViewController.m */; };
+		B333C3161B861C4300DD3618 /* BPToiletListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B333C3141B861C4300DD3618 /* BPToiletListViewController.xib */; };
+		B333C31B1B861C6400DD3618 /* BPToiletInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C31A1B861C6400DD3618 /* BPToiletInfo.m */; };
+		B333C3251B8774D700DD3618 /* BPIntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C3231B8774D700DD3618 /* BPIntroViewController.m */; };
+		B333C3261B8774D700DD3618 /* BPIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B333C3241B8774D700DD3618 /* BPIntroViewController.xib */; };
+		B333C32F1B87776600DD3618 /* BPSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C32E1B87776600DD3618 /* BPSetting.m */; };
+		B333C3381B8E14B100DD3618 /* BPRatingToiletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B333C3361B8E14B100DD3618 /* BPRatingToiletViewController.m */; };
+		B333C3391B8E14B100DD3618 /* BPRatingToiletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B333C3371B8E14B100DD3618 /* BPRatingToiletViewController.xib */; };
+		B3518DF31BD5320100EE51A2 /* BPToiletCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3518DF21BD5320100EE51A2 /* BPToiletCardView.m */; };
+		B3518DF51BD5320A00EE51A2 /* BPToiletCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3518DF41BD5320A00EE51A2 /* BPToiletCardView.xib */; };
+		B3518DF91BD539DD00EE51A2 /* BPToiletCardPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3518DF71BD539DD00EE51A2 /* BPToiletCardPhotoCell.m */; };
+		B3518DFA1BD539DD00EE51A2 /* BPToiletCardPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3518DF81BD539DD00EE51A2 /* BPToiletCardPhotoCell.xib */; };
+		B3518DFE1BD53A4800EE51A2 /* BPToiletCardCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3518DFC1BD53A4800EE51A2 /* BPToiletCardCommentCell.m */; };
+		B3518DFF1BD53A4800EE51A2 /* BPToiletCardCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3518DFD1BD53A4800EE51A2 /* BPToiletCardCommentCell.xib */; };
+		B3D54D8D1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D54D8B1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.m */; };
+		B3D54D8E1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D54D8C1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.xib */; };
+		B3DF477F1BE25F3C00B7235D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF477E1BE25F3C00B7235D /* AssetsLibrary.framework */; };
+		B3DF47811BE2609900B7235D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF47801BE2609900B7235D /* UIKit.framework */; };
+		B3DF47831BE260DE00B7235D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF47821BE260DE00B7235D /* Foundation.framework */; };
+		B3DF47851BE272E200B7235D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DF47841BE272E200B7235D /* Images.xcassets */; };
+		B3F069A81BCEA3E200344EB6 /* BPToiletCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F069A61BCEA3E200344EB6 /* BPToiletCardCell.m */; };
+		B3F069A91BCEA3E200344EB6 /* BPToiletCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F069A71BCEA3E200344EB6 /* BPToiletCardCell.xib */; };
+		B3F069AC1BCEB82600344EB6 /* BPToiletMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F069AB1BCEB82600344EB6 /* BPToiletMapAnnotation.m */; };
+		B3F069B11BCFF5CD00344EB6 /* BPSearchFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F069AF1BCFF5CD00344EB6 /* BPSearchFilterViewController.m */; };
+		B3F069B21BCFF5CD00344EB6 /* BPSearchFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3F069B01BCFF5CD00344EB6 /* BPSearchFilterViewController.xib */; };
+		D86C913C998DFF5E9312CCAE /* BPAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C94F1C85C9749B84A104A /* BPAPI.m */; };
+		D86C92E83D50B3789402F197 /* BPBookmarkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C998702D5E8AD96B5BFA9 /* BPBookmarkManager.m */; };
+		D86C9329547EB03EB38710CA /* BPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C9EC3BDA144970141E194 /* BPLocationManager.m */; };
+		D86C93990D41D8770383DE0D /* BPURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C9864D9EBF8B19D49DE95 /* BPURLSessionManager.m */; };
+		D86C93CF62200C634E7847BB /* UIViewController+BPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C900CEEF49299E0AA7264 /* UIViewController+BPAddition.m */; };
+		D86C965CCCB18BF4B7556F4A /* BPSnapshotMapHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C955795C1F47D2C5C9850 /* BPSnapshotMapHelper.m */; };
+		D86C986F8C60E1217FFC67B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D86C9D43F17BDE1F4D472AE1 /* Localizable.strings */; };
+		D86C98C6468A1A4AB26810A2 /* UIColor+BPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C93BA73E40E08BC0D0537 /* UIColor+BPAddition.m */; };
+		D86C98E8D3FAE746B38DF854 /* BPUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C97F29E2EB922913DFFE4 /* BPUserInfo.m */; };
+		D86C99D543F0AB78C81C4D3D /* BPFacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C915A7F4BCCE3BFDE3596 /* BPFacebookManager.m */; };
+		D86C9A6AD72B3EDD78158A6A /* BPToiletDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C909C24427FCC6C1D362B /* BPToiletDetailViewController.m */; };
+		D86C9B429DA0D36CF955F07F /* BPUrlExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C929D5ECC1E63450E2796 /* BPUrlExecutor.m */; };
+		D86C9B97DD465DF9FF0A0348 /* UIImage+BPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C9C617203EC64C2C4FB79 /* UIImage+BPAddition.m */; };
+		D86C9F4BD66930437B17916F /* BPDefineUtility.h in Resources */ = {isa = PBXBuildFile; fileRef = D86C97A5400BC57A7CDA2677 /* BPDefineUtility.h */; };
+		D86C9FA8220FCB73D986C273 /* BPToiletReport.m in Sources */ = {isa = PBXBuildFile; fileRef = D86C94BFAC725E616B780041 /* BPToiletReport.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B333C2FE1B861A8D00DD3618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B333C2DC1B861A8D00DD3618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B333C2E31B861A8D00DD3618;
+			remoteInfo = toilet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3D74D8B1B9F5718007AF7E4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		369D4DA4EBEF19151313385E /* Pods-toilet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toilet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-toilet/Pods-toilet.debug.xcconfig"; sourceTree = "<group>"; };
+		5E3A2CFD609019DCB01CAD82 /* Pods-toilet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-toilet.release.xcconfig"; path = "Pods/Target Support Files/Pods-toilet/Pods-toilet.release.xcconfig"; sourceTree = "<group>"; };
+		B321F0181BD82F9500273355 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B321F01F1BDBE32C00273355 /* BPToiletOptionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletOptionViewCell.h; sourceTree = "<group>"; };
+		B321F0201BDBE32C00273355 /* BPToiletOptionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletOptionViewCell.m; sourceTree = "<group>"; };
+		B321F0211BDBE32C00273355 /* BPToiletOptionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletOptionViewCell.xib; sourceTree = "<group>"; };
+		B333C2E41B861A8D00DD3618 /* toilet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toilet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B333C2E81B861A8D00DD3618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333C2E91B861A8D00DD3618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B333C2EB1B861A8D00DD3618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B333C2EC1B861A8D00DD3618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B333C2F71B861A8D00DD3618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B333C2FD1B861A8D00DD3618 /* toiletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toiletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B333C3021B861A8D00DD3618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B333C3031B861A8D00DD3618 /* toiletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = toiletTests.m; sourceTree = "<group>"; };
+		B333C30E1B861B6600DD3618 /* BPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPRootViewController.h; sourceTree = "<group>"; };
+		B333C30F1B861B6600DD3618 /* BPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPRootViewController.m; sourceTree = "<group>"; };
+		B333C3121B861C4300DD3618 /* BPToiletListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletListViewController.h; sourceTree = "<group>"; };
+		B333C3131B861C4300DD3618 /* BPToiletListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletListViewController.m; sourceTree = "<group>"; };
+		B333C3141B861C4300DD3618 /* BPToiletListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletListViewController.xib; sourceTree = "<group>"; };
+		B333C3191B861C6400DD3618 /* BPToiletInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletInfo.h; sourceTree = "<group>"; };
+		B333C31A1B861C6400DD3618 /* BPToiletInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletInfo.m; sourceTree = "<group>"; };
+		B333C3221B8774D700DD3618 /* BPIntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPIntroViewController.h; sourceTree = "<group>"; };
+		B333C3231B8774D700DD3618 /* BPIntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPIntroViewController.m; sourceTree = "<group>"; };
+		B333C3241B8774D700DD3618 /* BPIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPIntroViewController.xib; sourceTree = "<group>"; };
+		B333C32D1B87776600DD3618 /* BPSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPSetting.h; sourceTree = "<group>"; };
+		B333C32E1B87776600DD3618 /* BPSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPSetting.m; sourceTree = "<group>"; };
+		B333C3351B8E14B100DD3618 /* BPRatingToiletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPRatingToiletViewController.h; sourceTree = "<group>"; };
+		B333C3361B8E14B100DD3618 /* BPRatingToiletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPRatingToiletViewController.m; sourceTree = "<group>"; };
+		B333C3371B8E14B100DD3618 /* BPRatingToiletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPRatingToiletViewController.xib; sourceTree = "<group>"; };
+		B3518DF11BD5320100EE51A2 /* BPToiletCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletCardView.h; sourceTree = "<group>"; };
+		B3518DF21BD5320100EE51A2 /* BPToiletCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletCardView.m; sourceTree = "<group>"; };
+		B3518DF41BD5320A00EE51A2 /* BPToiletCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletCardView.xib; sourceTree = "<group>"; };
+		B3518DF61BD539DD00EE51A2 /* BPToiletCardPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletCardPhotoCell.h; sourceTree = "<group>"; };
+		B3518DF71BD539DD00EE51A2 /* BPToiletCardPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletCardPhotoCell.m; sourceTree = "<group>"; };
+		B3518DF81BD539DD00EE51A2 /* BPToiletCardPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletCardPhotoCell.xib; sourceTree = "<group>"; };
+		B3518DFB1BD53A4800EE51A2 /* BPToiletCardCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletCardCommentCell.h; sourceTree = "<group>"; };
+		B3518DFC1BD53A4800EE51A2 /* BPToiletCardCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletCardCommentCell.m; sourceTree = "<group>"; };
+		B3518DFD1BD53A4800EE51A2 /* BPToiletCardCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletCardCommentCell.xib; sourceTree = "<group>"; };
+		B3C419DB1BCA66D100CB099B /* toilet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = toilet.entitlements; sourceTree = "<group>"; };
+		B3D54D8A1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAutoCompleteLocationListViewController.h; sourceTree = "<group>"; };
+		B3D54D8B1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAutoCompleteLocationListViewController.m; sourceTree = "<group>"; };
+		B3D54D8C1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPAutoCompleteLocationListViewController.xib; sourceTree = "<group>"; };
+		B3D74D7B1B9F5718007AF7E4 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		B3DF477E1BE25F3C00B7235D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		B3DF47801BE2609900B7235D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3DF47821BE260DE00B7235D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3DF47841BE272E200B7235D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3F069A51BCEA3E200344EB6 /* BPToiletCardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletCardCell.h; sourceTree = "<group>"; };
+		B3F069A61BCEA3E200344EB6 /* BPToiletCardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletCardCell.m; sourceTree = "<group>"; };
+		B3F069A71BCEA3E200344EB6 /* BPToiletCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPToiletCardCell.xib; sourceTree = "<group>"; };
+		B3F069AA1BCEB82600344EB6 /* BPToiletMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletMapAnnotation.h; sourceTree = "<group>"; };
+		B3F069AB1BCEB82600344EB6 /* BPToiletMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletMapAnnotation.m; sourceTree = "<group>"; };
+		B3F069AE1BCFF5CD00344EB6 /* BPSearchFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPSearchFilterViewController.h; sourceTree = "<group>"; };
+		B3F069AF1BCFF5CD00344EB6 /* BPSearchFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPSearchFilterViewController.m; sourceTree = "<group>"; };
+		B3F069B01BCFF5CD00344EB6 /* BPSearchFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BPSearchFilterViewController.xib; sourceTree = "<group>"; };
+		D86C900CEEF49299E0AA7264 /* UIViewController+BPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BPAddition.m"; sourceTree = "<group>"; };
+		D86C9061B8BCD5A5F149C6FA /* UIViewController+BPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BPAddition.h"; sourceTree = "<group>"; };
+		D86C907F80F7BE76C88DD347 /* BPUrlExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPUrlExecutor.h; sourceTree = "<group>"; };
+		D86C909C24427FCC6C1D362B /* BPToiletDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletDetailViewController.m; sourceTree = "<group>"; };
+		D86C9143A3D1839AA12F41A9 /* BPUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPUserInfo.h; sourceTree = "<group>"; };
+		D86C915A7F4BCCE3BFDE3596 /* BPFacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPFacebookManager.m; sourceTree = "<group>"; };
+		D86C91F870FB1CAAE6C286BF /* BPURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPURLSessionManager.h; sourceTree = "<group>"; };
+		D86C929D5ECC1E63450E2796 /* BPUrlExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPUrlExecutor.m; sourceTree = "<group>"; };
+		D86C929F67D7820DCC206971 /* UIColor+BPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BPAddition.h"; sourceTree = "<group>"; };
+		D86C92B01193D427F39D8D57 /* BPBookmarkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBookmarkManager.h; sourceTree = "<group>"; };
+		D86C93B9FD8769A29431D1FA /* UIImage+BPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BPAddition.h"; sourceTree = "<group>"; };
+		D86C93BA73E40E08BC0D0537 /* UIColor+BPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BPAddition.m"; sourceTree = "<group>"; };
+		D86C94BFAC725E616B780041 /* BPToiletReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPToiletReport.m; sourceTree = "<group>"; };
+		D86C94F1C85C9749B84A104A /* BPAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPAPI.m; sourceTree = "<group>"; };
+		D86C955795C1F47D2C5C9850 /* BPSnapshotMapHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPSnapshotMapHelper.m; sourceTree = "<group>"; };
+		D86C97A5400BC57A7CDA2677 /* BPDefineUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPDefineUtility.h; sourceTree = "<group>"; };
+		D86C97E8E4AFD1756665A892 /* BPFacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPFacebookManager.h; sourceTree = "<group>"; };
+		D86C97F29E2EB922913DFFE4 /* BPUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPUserInfo.m; sourceTree = "<group>"; };
+		D86C9864D9EBF8B19D49DE95 /* BPURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPURLSessionManager.m; sourceTree = "<group>"; };
+		D86C998702D5E8AD96B5BFA9 /* BPBookmarkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBookmarkManager.m; sourceTree = "<group>"; };
+		D86C9B3A0DCC05B976E4D9CF /* BPAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPAPI.h; sourceTree = "<group>"; };
+		D86C9BE21F90CB9849EC6739 /* BPLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPLocationManager.h; sourceTree = "<group>"; };
+		D86C9C617203EC64C2C4FB79 /* UIImage+BPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BPAddition.m"; sourceTree = "<group>"; };
+		D86C9D43F17BDE1F4D472AE1 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		D86C9DFB3F065FE1D661684D /* BPSnapshotMapHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPSnapshotMapHelper.h; sourceTree = "<group>"; };
+		D86C9EC3BDA144970141E194 /* BPLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPLocationManager.m; sourceTree = "<group>"; };
+		D86C9EE3C62AD80BC110C078 /* BPToiletReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletReport.h; sourceTree = "<group>"; };
+		D86C9FCB9D8C67346FBC6627 /* BPToiletDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPToiletDetailViewController.h; sourceTree = "<group>"; };
+		E13ED8B95384A20968FC3E22 /* libPods-toilet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-toilet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B333C2E11B861A8D00DD3618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DF47831BE260DE00B7235D /* Foundation.framework in Frameworks */,
+				B3DF47811BE2609900B7235D /* UIKit.framework in Frameworks */,
+				B3DF477F1BE25F3C00B7235D /* AssetsLibrary.framework in Frameworks */,
+				B321F0191BD82F9500273355 /* MapKit.framework in Frameworks */,
+				64C1A27BBF3EC16E8FEBD6AA /* libPods-toilet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333C2FA1B861A8D00DD3618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		143B8D7BA731261D973F4381 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				369D4DA4EBEF19151313385E /* Pods-toilet.debug.xcconfig */,
+				5E3A2CFD609019DCB01CAD82 /* Pods-toilet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F38150B353A5AC956810BB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF47821BE260DE00B7235D /* Foundation.framework */,
+				B3DF47801BE2609900B7235D /* UIKit.framework */,
+				B3DF477E1BE25F3C00B7235D /* AssetsLibrary.framework */,
+				B321F0181BD82F9500273355 /* MapKit.framework */,
+				E13ED8B95384A20968FC3E22 /* libPods-toilet.a */,
+				B3D74D7B1B9F5718007AF7E4 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B333C2DB1B861A8D00DD3618 = {
+			isa = PBXGroup;
+			children = (
+				B333C2E61B861A8D00DD3618 /* toilet */,
+				B333C3001B861A8D00DD3618 /* toiletTests */,
+				B333C2E51B861A8D00DD3618 /* Products */,
+				143B8D7BA731261D973F4381 /* Pods */,
+				3F38150B353A5AC956810BB9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B333C2E51B861A8D00DD3618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B333C2E41B861A8D00DD3618 /* toilet.app */,
+				B333C2FD1B861A8D00DD3618 /* toiletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B333C2E61B861A8D00DD3618 /* toilet */ = {
+			isa = PBXGroup;
+			children = (
+				B3F069AD1BCFF5AC00344EB6 /* Filter */,
+				B3C419DB1BCA66D100CB099B /* toilet.entitlements */,
+				B333C3341B8E149600DD3618 /* Rating */,
+				B333C32C1B87775100DD3618 /* Module */,
+				B333C3211B8774BA00DD3618 /* Intro */,
+				B333C3181B861C4F00DD3618 /* Model */,
+				B333C3111B861C1C00DD3618 /* List */,
+				B333C2EB1B861A8D00DD3618 /* AppDelegate.h */,
+				B333C2EC1B861A8D00DD3618 /* AppDelegate.m */,
+				B333C2F61B861A8D00DD3618 /* LaunchScreen.xib */,
+				B333C2E71B861A8D00DD3618 /* Supporting Files */,
+				B333C30E1B861B6600DD3618 /* BPRootViewController.h */,
+				B333C30F1B861B6600DD3618 /* BPRootViewController.m */,
+				D86C920F6F1513751F6D38BC /* Detail */,
+				D86C9D43F17BDE1F4D472AE1 /* Localizable.strings */,
+			);
+			path = toilet;
+			sourceTree = "<group>";
+		};
+		B333C2E71B861A8D00DD3618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF47841BE272E200B7235D /* Images.xcassets */,
+				B333C2E81B861A8D00DD3618 /* Info.plist */,
+				B333C2E91B861A8D00DD3618 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B333C3001B861A8D00DD3618 /* toiletTests */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3031B861A8D00DD3618 /* toiletTests.m */,
+				B333C3011B861A8D00DD3618 /* Supporting Files */,
+			);
+			path = toiletTests;
+			sourceTree = "<group>";
+		};
+		B333C3011B861A8D00DD3618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3021B861A8D00DD3618 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B333C3111B861C1C00DD3618 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3171B861C4900DD3618 /* View */,
+				B333C3121B861C4300DD3618 /* BPToiletListViewController.h */,
+				B333C3131B861C4300DD3618 /* BPToiletListViewController.m */,
+				B333C3141B861C4300DD3618 /* BPToiletListViewController.xib */,
+				B3D54D8A1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.h */,
+				B3D54D8B1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.m */,
+				B3D54D8C1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.xib */,
+			);
+			name = List;
+			sourceTree = "<group>";
+		};
+		B333C3171B861C4900DD3618 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3F069A51BCEA3E200344EB6 /* BPToiletCardCell.h */,
+				B3F069A61BCEA3E200344EB6 /* BPToiletCardCell.m */,
+				B3F069A71BCEA3E200344EB6 /* BPToiletCardCell.xib */,
+				B3F069AA1BCEB82600344EB6 /* BPToiletMapAnnotation.h */,
+				B3F069AB1BCEB82600344EB6 /* BPToiletMapAnnotation.m */,
+				B3518DF11BD5320100EE51A2 /* BPToiletCardView.h */,
+				B3518DF21BD5320100EE51A2 /* BPToiletCardView.m */,
+				B3518DF41BD5320A00EE51A2 /* BPToiletCardView.xib */,
+				B3518DF61BD539DD00EE51A2 /* BPToiletCardPhotoCell.h */,
+				B3518DF71BD539DD00EE51A2 /* BPToiletCardPhotoCell.m */,
+				B3518DF81BD539DD00EE51A2 /* BPToiletCardPhotoCell.xib */,
+				B3518DFB1BD53A4800EE51A2 /* BPToiletCardCommentCell.h */,
+				B3518DFC1BD53A4800EE51A2 /* BPToiletCardCommentCell.m */,
+				B3518DFD1BD53A4800EE51A2 /* BPToiletCardCommentCell.xib */,
+				B321F01F1BDBE32C00273355 /* BPToiletOptionViewCell.h */,
+				B321F0201BDBE32C00273355 /* BPToiletOptionViewCell.m */,
+				B321F0211BDBE32C00273355 /* BPToiletOptionViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		B333C3181B861C4F00DD3618 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3191B861C6400DD3618 /* BPToiletInfo.h */,
+				B333C31A1B861C6400DD3618 /* BPToiletInfo.m */,
+				D86C94BFAC725E616B780041 /* BPToiletReport.m */,
+				D86C9EE3C62AD80BC110C078 /* BPToiletReport.h */,
+				D86C97F29E2EB922913DFFE4 /* BPUserInfo.m */,
+				D86C9143A3D1839AA12F41A9 /* BPUserInfo.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B333C3211B8774BA00DD3618 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3221B8774D700DD3618 /* BPIntroViewController.h */,
+				B333C3231B8774D700DD3618 /* BPIntroViewController.m */,
+				B333C3241B8774D700DD3618 /* BPIntroViewController.xib */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		B333C32C1B87775100DD3618 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				B333C32D1B87776600DD3618 /* BPSetting.h */,
+				B333C32E1B87776600DD3618 /* BPSetting.m */,
+				D86C9EC3BDA144970141E194 /* BPLocationManager.m */,
+				D86C9BE21F90CB9849EC6739 /* BPLocationManager.h */,
+				D86C97A5400BC57A7CDA2677 /* BPDefineUtility.h */,
+				D86C9864D9EBF8B19D49DE95 /* BPURLSessionManager.m */,
+				D86C91F870FB1CAAE6C286BF /* BPURLSessionManager.h */,
+				D86C915A7F4BCCE3BFDE3596 /* BPFacebookManager.m */,
+				D86C97E8E4AFD1756665A892 /* BPFacebookManager.h */,
+				D86C929D5ECC1E63450E2796 /* BPUrlExecutor.m */,
+				D86C907F80F7BE76C88DD347 /* BPUrlExecutor.h */,
+				D86C955795C1F47D2C5C9850 /* BPSnapshotMapHelper.m */,
+				D86C9DFB3F065FE1D661684D /* BPSnapshotMapHelper.h */,
+				D86C94F1C85C9749B84A104A /* BPAPI.m */,
+				D86C9B3A0DCC05B976E4D9CF /* BPAPI.h */,
+				D86C998702D5E8AD96B5BFA9 /* BPBookmarkManager.m */,
+				D86C92B01193D427F39D8D57 /* BPBookmarkManager.h */,
+				D86C93BA73E40E08BC0D0537 /* UIColor+BPAddition.m */,
+				D86C929F67D7820DCC206971 /* UIColor+BPAddition.h */,
+				D86C900CEEF49299E0AA7264 /* UIViewController+BPAddition.m */,
+				D86C9061B8BCD5A5F149C6FA /* UIViewController+BPAddition.h */,
+				D86C9C617203EC64C2C4FB79 /* UIImage+BPAddition.m */,
+				D86C93B9FD8769A29431D1FA /* UIImage+BPAddition.h */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		B333C3341B8E149600DD3618 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				B333C3351B8E14B100DD3618 /* BPRatingToiletViewController.h */,
+				B333C3361B8E14B100DD3618 /* BPRatingToiletViewController.m */,
+				B333C3371B8E14B100DD3618 /* BPRatingToiletViewController.xib */,
+			);
+			name = Rating;
+			sourceTree = "<group>";
+		};
+		B3F069AD1BCFF5AC00344EB6 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				B3F069AE1BCFF5CD00344EB6 /* BPSearchFilterViewController.h */,
+				B3F069AF1BCFF5CD00344EB6 /* BPSearchFilterViewController.m */,
+				B3F069B01BCFF5CD00344EB6 /* BPSearchFilterViewController.xib */,
+			);
+			name = Filter;
+			sourceTree = "<group>";
+		};
+		D86C920F6F1513751F6D38BC /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				D86C909C24427FCC6C1D362B /* BPToiletDetailViewController.m */,
+				D86C9FCB9D8C67346FBC6627 /* BPToiletDetailViewController.h */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B333C2E31B861A8D00DD3618 /* toilet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333C3071B861A8D00DD3618 /* Build configuration list for PBXNativeTarget "toilet" */;
+			buildPhases = (
+				798E081902206842A9AD1770 /* Check Pods Manifest.lock */,
+				B333C2E01B861A8D00DD3618 /* Sources */,
+				B333C2E11B861A8D00DD3618 /* Frameworks */,
+				B333C2E21B861A8D00DD3618 /* Resources */,
+				176D1B8D5A08C3381E8D82BC /* Copy Pods Resources */,
+				B3D74D8B1B9F5718007AF7E4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toilet;
+			productName = toilet;
+			productReference = B333C2E41B861A8D00DD3618 /* toilet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B333C2FC1B861A8D00DD3618 /* toiletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B333C30A1B861A8D00DD3618 /* Build configuration list for PBXNativeTarget "toiletTests" */;
+			buildPhases = (
+				B333C2F91B861A8D00DD3618 /* Sources */,
+				B333C2FA1B861A8D00DD3618 /* Frameworks */,
+				B333C2FB1B861A8D00DD3618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B333C2FF1B861A8D00DD3618 /* PBXTargetDependency */,
+			);
+			name = toiletTests;
+			productName = toiletTests;
+			productReference = B333C2FD1B861A8D00DD3618 /* toiletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B333C2DC1B861A8D00DD3618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = bezierpaths;
+				TargetAttributes = {
+					B333C2E31B861A8D00DD3618 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3KJGH5B54Q;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					B333C2FC1B861A8D00DD3618 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B333C2E31B861A8D00DD3618;
+					};
+				};
+			};
+			buildConfigurationList = B333C2DF1B861A8D00DD3618 /* Build configuration list for PBXProject "toilet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B333C2DB1B861A8D00DD3618;
+			productRefGroup = B333C2E51B861A8D00DD3618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B333C2E31B861A8D00DD3618 /* toilet */,
+				B333C2FC1B861A8D00DD3618 /* toiletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B333C2E21B861A8D00DD3618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3518DF51BD5320A00EE51A2 /* BPToiletCardView.xib in Resources */,
+				B3D54D8E1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.xib in Resources */,
+				B333C3391B8E14B100DD3618 /* BPRatingToiletViewController.xib in Resources */,
+				B3518DFF1BD53A4800EE51A2 /* BPToiletCardCommentCell.xib in Resources */,
+				B333C3261B8774D700DD3618 /* BPIntroViewController.xib in Resources */,
+				B3DF47851BE272E200B7235D /* Images.xcassets in Resources */,
+				B333C2F81B861A8D00DD3618 /* LaunchScreen.xib in Resources */,
+				B3F069A91BCEA3E200344EB6 /* BPToiletCardCell.xib in Resources */,
+				B321F0231BDBE32C00273355 /* BPToiletOptionViewCell.xib in Resources */,
+				B333C3161B861C4300DD3618 /* BPToiletListViewController.xib in Resources */,
+				B3518DFA1BD539DD00EE51A2 /* BPToiletCardPhotoCell.xib in Resources */,
+				B3F069B21BCFF5CD00344EB6 /* BPSearchFilterViewController.xib in Resources */,
+				D86C9F4BD66930437B17916F /* BPDefineUtility.h in Resources */,
+				D86C986F8C60E1217FFC67B3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333C2FB1B861A8D00DD3618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176D1B8D5A08C3381E8D82BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-toilet/Pods-toilet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		798E081902206842A9AD1770 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B333C2E01B861A8D00DD3618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B333C2ED1B861A8D00DD3618 /* AppDelegate.m in Sources */,
+				B333C3151B861C4300DD3618 /* BPToiletListViewController.m in Sources */,
+				B3F069AC1BCEB82600344EB6 /* BPToiletMapAnnotation.m in Sources */,
+				B3518DF31BD5320100EE51A2 /* BPToiletCardView.m in Sources */,
+				B3518DFE1BD53A4800EE51A2 /* BPToiletCardCommentCell.m in Sources */,
+				B3F069A81BCEA3E200344EB6 /* BPToiletCardCell.m in Sources */,
+				B333C3101B861B6600DD3618 /* BPRootViewController.m in Sources */,
+				B333C31B1B861C6400DD3618 /* BPToiletInfo.m in Sources */,
+				B333C3381B8E14B100DD3618 /* BPRatingToiletViewController.m in Sources */,
+				B333C32F1B87776600DD3618 /* BPSetting.m in Sources */,
+				B321F0221BDBE32C00273355 /* BPToiletOptionViewCell.m in Sources */,
+				B333C2EA1B861A8D00DD3618 /* main.m in Sources */,
+				B333C3251B8774D700DD3618 /* BPIntroViewController.m in Sources */,
+				D86C9329547EB03EB38710CA /* BPLocationManager.m in Sources */,
+				B3F069B11BCFF5CD00344EB6 /* BPSearchFilterViewController.m in Sources */,
+				D86C93990D41D8770383DE0D /* BPURLSessionManager.m in Sources */,
+				D86C99D543F0AB78C81C4D3D /* BPFacebookManager.m in Sources */,
+				D86C9B429DA0D36CF955F07F /* BPUrlExecutor.m in Sources */,
+				B3518DF91BD539DD00EE51A2 /* BPToiletCardPhotoCell.m in Sources */,
+				D86C965CCCB18BF4B7556F4A /* BPSnapshotMapHelper.m in Sources */,
+				D86C913C998DFF5E9312CCAE /* BPAPI.m in Sources */,
+				D86C9FA8220FCB73D986C273 /* BPToiletReport.m in Sources */,
+				D86C98E8D3FAE746B38DF854 /* BPUserInfo.m in Sources */,
+				B3D54D8D1BCA46250043CE6E /* BPAutoCompleteLocationListViewController.m in Sources */,
+				D86C92E83D50B3789402F197 /* BPBookmarkManager.m in Sources */,
+				D86C98C6468A1A4AB26810A2 /* UIColor+BPAddition.m in Sources */,
+				D86C9A6AD72B3EDD78158A6A /* BPToiletDetailViewController.m in Sources */,
+				D86C93CF62200C634E7847BB /* UIViewController+BPAddition.m in Sources */,
+				D86C9B97DD465DF9FF0A0348 /* UIImage+BPAddition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B333C2F91B861A8D00DD3618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B333C3041B861A8D00DD3618 /* toiletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B333C2FF1B861A8D00DD3618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B333C2E31B861A8D00DD3618 /* toilet */;
+			targetProxy = B333C2FE1B861A8D00DD3618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B333C2F61B861A8D00DD3618 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B333C2F71B861A8D00DD3618 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B333C3051B861A8D00DD3618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B333C3061B861A8D00DD3618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B333C3081B861A8D00DD3618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369D4DA4EBEF19151313385E /* Pods-toilet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = toilet/toilet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = toilet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Debug;
+		};
+		B333C3091B861A8D00DD3618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3A2CFD609019DCB01CAD82 /* Pods-toilet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = toilet/toilet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/external/FacebookSDKs-iOS-20150813",
+				);
+				INFOPLIST_FILE = toilet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+			};
+			name = Release;
+		};
+		B333C30B1B861A8D00DD3618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toilet.app/toilet";
+			};
+			name = Debug;
+		};
+		B333C30C1B861A8D00DD3618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = toiletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/toilet.app/toilet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B333C2DF1B861A8D00DD3618 /* Build configuration list for PBXProject "toilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333C3051B861A8D00DD3618 /* Debug */,
+				B333C3061B861A8D00DD3618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333C3071B861A8D00DD3618 /* Build configuration list for PBXNativeTarget "toilet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333C3081B861A8D00DD3618 /* Debug */,
+				B333C3091B861A8D00DD3618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B333C30A1B861A8D00DD3618 /* Build configuration list for PBXNativeTarget "toiletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B333C30B1B861A8D00DD3618 /* Debug */,
+				B333C30C1B861A8D00DD3618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B333C2DC1B861A8D00DD3618 /* Project object */;
+}
